@@ -153,7 +153,7 @@ export default function TeamSection() {
               Join Our Growing Team
             </h3>
             <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
-              We're always looking for talented professionals to join our logistics family. 
+              We&apos;re always looking for talented professionals to join our logistics family. 
               Explore career opportunities and grow with us in the dynamic world of global freight.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

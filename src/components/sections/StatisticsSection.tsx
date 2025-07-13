@@ -100,7 +100,6 @@ function CountUpAnimation({ target, suffix = '', duration = 2000 }: { target: nu
     if (!isVisible) return
 
     let startTime: number | null = null
-    const startValue = 0
 
     const animate = (currentTime: number) => {
       if (startTime === null) startTime = currentTime

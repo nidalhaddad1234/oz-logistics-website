@@ -96,7 +96,7 @@ export default function ProcessSection() {
             </div>
             
             <div className="relative flex justify-between">
-              {processSteps.map((step, index) => (
+              {processSteps.map((step) => (
                 <div key={step.id} className="flex flex-col items-center group">
                   <div 
                     className={`w-16 h-16 rounded-full bg-gradient-to-r ${step.color} flex items-center justify-center text-white shadow-lg transform transition-all duration-300 group-hover:scale-110 cursor-pointer`}
@@ -143,8 +143,8 @@ export default function ProcessSection() {
 
                 {activeStep === step.id && (
                   <div className="space-y-2 animate-fade-in">
-                    {step.details.map((detail, index) => (
-                      <div key={index} className="flex items-start space-x-2">
+                    {step.details.map((detail, detailIndex) => (
+                      <div key={detailIndex} className="flex items-start space-x-2">
                         <CheckCircle className="w-4 h-4 text-green-500 mt-0.5 flex-shrink-0" />
                         <span className="text-sm text-gray-600">{detail}</span>
                       </div>

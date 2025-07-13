@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
-import { Plane, Clock, Shield, Globe, Package, CheckCircle, ArrowRight, Calculator } from 'lucide-react'
+import { Plane, Clock, Shield, Package, CheckCircle, ArrowRight, Calculator } from 'lucide-react'
 
 const airFreightServices = [
   {
